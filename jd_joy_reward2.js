@@ -38,7 +38,7 @@ let jdNotify = false;//是否开启静默运行，默认false关闭(即:奖品�
 let cookiesArr = [], cookie = '';
 if ($.isNode()) {
 
-  cookiesArr[0]= jdcookies1;
+  cookiesArr[0]= jdcookies2;
 
 } else {
   cookiesArr = [$.getdata('CookieJD'), $.getdata('CookieJD2'), ...jsonParse($.getdata('CookiesJD') || "[]").map(item => item.cookie)].filter(item => !!item);
