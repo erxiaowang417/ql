@@ -22,7 +22,7 @@ cron "59 7,15,23 * * *" script-path=jd_joy_reward.js,tag=宠汪汪积分兑换�
 宠汪汪积分兑换奖品 = type=cron,script-path=jd_joy_reward.js, cronexpr="59 7,15,23 * * *", timeout=3600, enable=true
  */
 // prettier-ignore
-const $ = new Env('JD宠汪汪🐕积分兑换奖品');
+const $ = new Env('JD宠汪汪1🐕积分兑换');
 const zooFaker = require('./utils/JDJRValidator_Pure');
 // $.get = zooFaker.injectToRequest2($.get.bind($));
 // $.post = zooFaker.injectToRequest2($.post.bind($));
