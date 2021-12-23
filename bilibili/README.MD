@@ -32,6 +32,7 @@
       java -jar /ql/scripts/BILIBILI-HELPER-v2.1.0.jar /ql/scripts/config.json
  - 在青龙面板中添加自动化任务
  
-   task raw bili.sh
-   10 10 * * *
+        task raw bili.sh
+        10 10 * * *
+        
   ##### 五、运行即可
