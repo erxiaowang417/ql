@@ -1,11 +1,11 @@
-中青看点
-========
-- **更新时间：**       2021-9-9-17:13
 
-- **修改ql适配**
-    拉取地址：https://gitee.com/xiaoerwang/quan-x/raw/master/ql/youth.js
-  - 修改提现代码
-  - 适配多账号
+
+Bilibili自动任务
+========
+BilibiliTask是一个老牌的b站自动化项目
+[安装教程](https://github.com/erxiaowang417/ql/tree/main/bilibili) 
+
+项目end
 
 京东多合一签到脚本
 ========
